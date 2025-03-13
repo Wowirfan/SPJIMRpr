@@ -1,3 +1,14 @@
+function updateCode() {
+    let dropdown = document.getElementById("country");
+    let selectedText = dropdown.options[dropdown.selectedIndex].text;
+    let selectedValue = dropdown.value;
+
+    // Sirf country code set karne ke liye innerHTML update karo
+    dropdown.options[dropdown.selectedIndex].innerHTML = selectedValue;
+    
+    // 1 second ke baad wapas pura naam show karne ke liye
+   
+}
 // India States & Cities JSON Data
 const indiaData = {
     "Andhra Pradesh": ["Visakhapatnam", "Vijayawada", "Guntur", "Nellore"],
@@ -78,7 +89,7 @@ function validateCaptcha() {
     let actualCaptcha = document.getElementById("captcha-box").innerText;
 
     if (enteredCaptcha === actualCaptcha) {
-        document.getElementById("message").innerHTML = "<span style='color: green;'>Captcha Matched!</span>";
+        document.getElementById("message").innerHTML = "<span style='color: blue;'>Captcha Matched!</span>";
     } else {
         document.getElementById("message").innerHTML = "<span style='color: red;'>Incorrect! Try again.</span>";
         generateCaptcha(); // Refresh Captcha
