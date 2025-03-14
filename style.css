@@ -441,7 +441,7 @@ button {
 }
 #valueofcompany{
     width: 100%;
-    height: 35vh;
+    height: 25vh;
     display: flex;
     justify-content:space-between;
     padding-left: 8%;
