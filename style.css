@@ -444,8 +444,10 @@ button {
     height: 35vh;
     display: flex;
     justify-content:space-between;
-    padding-left: 14%;
-    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: 1%;
+    /* align-items: center; */
 
     /* background-color: #F58220; */
 
@@ -453,17 +455,19 @@ button {
 #noone{
     height: 100%;
     width: 18%;
-    margin-top: 5%;
+    /* background-color: #f58220; */
+    /* margin-top: 5%; */
     text-align: center;
 }
 #noone h2{ 
     font-size: 33px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     color: #531F75  ;
 }
 #valueline{
-    height: 60%;
+    height: 50%;
     width: .1px;
+    margin-bottom: 40px;
     background-color: #a49fa1;
 }
 #top-rank{
@@ -473,4 +477,4 @@ button {
 #bodytxt{
     text-align: center;
     font-size: x-large; 
-}
+}jjsdfjkf

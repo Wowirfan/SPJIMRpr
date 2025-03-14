@@ -9,11 +9,11 @@
                 "-ExecutionPolicy",
                 "Bypass",
                 "-File",
-                "spjimr\auto_push.ps1"
+                "${workspaceFolder}/auto_push.ps1"
             ],
             "problemMatcher": [],
             "runOptions": {
-                "runOn": "folderOpen"
+                "runOn": "startup"
             }
         }
     ]
