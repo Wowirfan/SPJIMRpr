@@ -360,7 +360,7 @@ button {
 #imgntxt{
     display: flex;
     height:80vh;
-    width: 50%;
+    width: 100%;
 }
 #pg2img{
 height: 70%;
