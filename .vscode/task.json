@@ -9,7 +9,7 @@
                 "-ExecutionPolicy",
                 "Bypass",
                 "-File",
-                "${workspaceFolder}/auto_push.ps1"
+                "spjimr\auto_push.ps1"
             ],
             "problemMatcher": [],
             "runOptions": {
