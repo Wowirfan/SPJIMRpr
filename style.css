@@ -86,7 +86,7 @@ width: 250px;
 #page1{
     height: 120vh;
     width: 100%;
-    
+
     padding-top: 128px;
 
     /* display: block; */
@@ -355,7 +355,7 @@ button {
 #page2{
     height: 100vh;
     width: 100%;
-    background-color: rgb(240, 255, 249);
+    background-color: #ECECEC;
 }
 #float-right{
     /* display: flex; */
