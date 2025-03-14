@@ -366,7 +366,9 @@ button {
 height: 60%;
 width: 50%;
 }
-
+#pg2img img{
+    
+}
 #float-right{
     /* display: flex; */
     /* background-color: darkblue; */
