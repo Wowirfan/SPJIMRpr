@@ -357,6 +357,11 @@ button {
     width: 100%;
     background-color: #ECECEC;
 }
+#imgntxt{
+    display: flex;
+    height:80vh;
+    width: 100%;
+}
 #float-right{
     /* display: flex; */
     /* background-color: darkblue; */
